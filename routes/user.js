@@ -4,5 +4,12 @@
  */
 
 exports.list = function(req, res){
-  res.send("respond with a resource");
+  res.send("will list users");
 };
+
+exports.findone = function(req, res){
+  res.send("find one");
+};
+
+
+

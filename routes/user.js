@@ -8,7 +8,9 @@ exports.list = function(req, res){
 };
 
 exports.findone = function(req, res){
-  res.send("find one");
+   console.log(req);
+   var uid = req.params.uid;
+   res.send(uid);
 };
 
 
